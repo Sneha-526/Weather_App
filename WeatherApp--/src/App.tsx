@@ -1,9 +1,11 @@
-import "./App.css";
-import NavSection from "./components/NavSection";
+import Hero from "./components/Hero";
+import { NavbarDark } from "./components/Navbardark";
+
 function App() {
   return (
     <section>
-      <NavSection />
+      <NavbarDark />
+      <Hero />
     </section>
   );
 }
